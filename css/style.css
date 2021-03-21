@@ -133,8 +133,8 @@ header{
 /*Add media query to handle reduced-motion*/
 /*Your code here again.*/ 
 @media (prefers-reduced-motion) {
-  .animation {
-    animation-name: logo_grow;
+  #logo {
+    animation-name: none;
   }
 }
 
