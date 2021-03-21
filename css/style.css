@@ -4,7 +4,7 @@ body{
   margin: 0;
   padding: 0;
   font-size: 16pt; 
-  font-family: "Raleway", "Sans-Serif";
+  font-family: "Raleway", "sans-serif";
   background-image: url(../images/concrete_seamless.png);
 }
 
@@ -16,13 +16,16 @@ header{
   /*Your  code here again.*/
   flex-direction: column;
   align-items: center;
+  /* ? */
+  justify-content: center;
 }
 
 /*Requirement 3*/
 .nav_links{
   /*Your code here again.*/
-  align-items: flex-end;
+
   justify-content: center;
+  flex-direction: column;
 
 }
 
@@ -67,7 +70,10 @@ header{
 .gallery{
   min-height: 600px;
   /*Your code here again.*/
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*Requirement 8*/
